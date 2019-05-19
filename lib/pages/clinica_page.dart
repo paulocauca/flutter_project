@@ -1,5 +1,6 @@
 import 'package:apportho/pages/auth.dart';
 import 'package:apportho/pages/auth_provider.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
@@ -43,9 +44,6 @@ class ClinicaPage extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
-
-  
-    print("TESTE");
 
     return new Scaffold(
       appBar: new AppBar(
